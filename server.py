@@ -9,6 +9,3 @@ while True:
   clientsocket, address = s.accept()
   print(f"Connection from {address} has been established.")
   clientsocket.send(bytes("Welcome","utf-8"))
-  
-  
-  
